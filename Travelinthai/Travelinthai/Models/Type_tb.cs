@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Travelinthai.Models
 {
@@ -8,5 +9,6 @@ namespace Travelinthai.Models
         [Key]
         public int TypeID { get; set; }
         public string TypeName { get; set; }
+        
     }
 }

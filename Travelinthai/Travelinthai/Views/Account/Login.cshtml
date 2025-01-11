@@ -3,5 +3,46 @@
     ViewData["Title"] = "Login";
 }
 
-<h1>Login</h1>
+<div style="width: 100%; height: 50vh" class="row justify-content-center">
+
+    <div class="card w-50" style="height: 35vh; background-color: #FFF8DC;border-radius:20px;border:10px solid #e5c7ab">
+        <h1 class="row justify-content-center">Login</h1>
+        <div class="col-md-6">
+            <form action="/Account/Login" method="post">
+                <div class="form-group">
+                    <lebal for="UsernameOrEmail">username</lebal>
+                    <input type="text" id="UsernameOrEmail" name="UsernameOrEmail" class="form-control" placeholder="Enter your Username" required />
+                </div>
+
+                <div class="form-group">
+                    <lebal for="password">password</lebal>
+                    <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password" required />
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" id="Remember" name="Remember" class="form-check-input" />
+                    <label for="Remember" class="form-check-label">Remember</label>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+
+                <div class="form-group">
+                    <a href="/Account/Register" class="btn btn-info">Register</a>
+                </div>
+                <div>@ViewBag.ErrorMessage</div>
+            </form>
+            <div>
+                <style>
+                    body {
+                        background: linear-gradient(#FAEBD7,#FFEFD5,#FFDAB9)
+                    }
+                </style>
+            </div>
+
+        </div>
+
+    </div>
+</div>
 
