@@ -70,8 +70,7 @@
               "RelativeToolTip": "Travelinthai\\Views\\Location\\Beach.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T06:11:40.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T06:11:40.753Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "Travelinthai\\Views\\Location\\Measure.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T08:54:31.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T08:54:31.302Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "Travelinthai\\Views\\Admin\\MesasureAdmin.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T09:17:42.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T09:17:42.013Z"
             },
             {
               "$type": "Document",
@@ -109,8 +106,7 @@
               "RelativeToolTip": "Travelinthai\\Controllers\\AdminController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAmwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T09:14:52.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T09:14:52.261Z"
             },
             {
               "$type": "Document",
@@ -122,8 +118,7 @@
               "RelativeToolTip": "Travelinthai\\Controllers\\AccountController.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAwwDEAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T09:17:17.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T09:17:17.495Z"
             },
             {
               "$type": "Document",
@@ -135,8 +130,7 @@
               "RelativeToolTip": "Travelinthai\\Controllers\\TypeController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T09:12:43.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T09:12:43.11Z"
             },
             {
               "$type": "Document",
@@ -148,8 +142,7 @@
               "RelativeToolTip": "Travelinthai\\Views\\Type\\TypeUser.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T09:08:18.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T09:08:18.106Z"
             },
             {
               "$type": "Document",
@@ -174,8 +167,7 @@
               "RelativeToolTip": "Travelinthai\\Views\\Location\\Mountain.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T09:06:08.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T09:06:08.291Z"
             },
             {
               "$type": "Document",
@@ -187,8 +179,7 @@
               "RelativeToolTip": "Travelinthai\\Views\\Account\\Login.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T09:25:52.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T09:25:52.31Z"
             },
             {
               "$type": "Document",
@@ -200,8 +191,7 @@
               "RelativeToolTip": "Travelinthai\\Views\\Location\\Waterfall.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T09:13:10.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T09:13:10.242Z"
             },
             {
               "$type": "Document",
@@ -213,8 +203,7 @@
               "RelativeToolTip": "Travelinthai\\Controllers\\LocationController.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAowCkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T05:32:04.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T05:32:04.829Z"
             }
           ]
         }
