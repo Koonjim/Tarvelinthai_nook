@@ -15,18 +15,19 @@ namespace Travelinthai.Controllers
             _context = context;
         }
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult TypeUser()
         {
             IEnumerable<Type_tb> Types = _context.Type_tb
                
                .ToList();
             return View(Types);
         }
-        
-        [HttpPost]
-        public IActionResult sea()
+        public IActionResult TypeAdmin()
         {
-            return View();
+            IEnumerable<Type_tb> Types = _context.Type_tb
+
+               .ToList();
+            return View(Types);
         }
     }
 }

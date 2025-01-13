@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Travelinthai.Models.Location_tb>
+
+@{
+    ViewData["Title"] = "Admin";
+}
+<a href="/Account/Login" class="btn btn-info">Logout</a>
+<table class="table table-striped;">
+    <thead>
+        <tr>
+            <th>ชื่อสถานที่</th>
+            <th>รายละเอียก</th>
+            <th>จังหวัด</th>
+            <th>หมวดหมู่</th>
+            <th>ปกหนังสือ</th>
+            <th>จัดการ</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var location in Model.Where(a => a.TypeID == 1))
+        {
+            <tr>
+                <td>@location.LocationName</td>
+                <td>@location.Details</td>
+                <td>@location.Province</td>
+                <td>@location.Type.TypeName</td>
+                <td><img src="@location.Img" alt="Cover Image" width="100" /></td>
+                <td>
+                    <a href="@Url.Action("Edit", "Admin",new{ id = location.LocationID})" class="btn btn-primary">แก้ไข</a>
+
+                    <form asp-action="Delete" asp-controller="location" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@location.LocationID" />
+                        <button type="submit" class="btn-danger" onclick="return confirm('คุณต้องการลบข้อมูลนี้หรือไม่');">ลบ</button>
+
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="@Url.Action("Create","Admin")" class="btn btn-success">เพิ่มสถานที่</a>
+<style>
+    body {
+        background: linear-gradient(#DEB887,#F5DEB3,#F5F5DC)
+    }
+
+</style>
+
+

@@ -45,13 +45,60 @@ namespace Travelinthai.Controllers
 
             if (User.Role == "Admin")
             {
-                return RedirectToAction("Admin", "Admin");
+                return RedirectToAction("TypeAdmin", "Type");
             }
             else
             {
-                return RedirectToAction("Index", "Type");
+                return RedirectToAction("TypeUser", "Type");
             }
 
+        }
+        [HttpGet]
+        public IActionResult Register()
+        {
+            return View();
+
+        }
+        [HttpPost]
+        public IActionResult Register(string Username, string Email, string Password, string cpassword)
+        {
+            // ตรวจสอบว่า รหัสผ่านที่กรอกสองครั้งตรงกันหรือไม่
+            if (Password != cpassword)
+            {
+                ModelState.AddModelError("Cpassword", "Passwords do not match."); // ถ้าไม่ตรงให้แสดงข้อความผิดพลาด
+                return View(); // ส่งกลับไปที่หน้าฟอร์มสมัครสมาชิก
+            }
+
+            // ตรวจสอบว่ามีผู้ใช้หรืออีเมลนี้ในระบบแล้วหรือไม่
+            if (_context.User_tb.Any(u => u.Username == Username || u.Useremail == Email))
+            {
+                ModelState.AddModelError("DuplicateUser", "Username or Email already exists."); // ถ้ามีให้แสดงข้อความผิดพลาด
+                return View();
+            }
+
+            try
+            {
+                // สร้างผู้ใช้ใหม่
+                var newUser = new User_tb
+                {
+                    Username = Username, // กำหนดชื่อผู้ใช้
+                    Useremail = Email,       // กำหนดอีเมล
+                    Password = Password, // เก็บรหัสผ่าน (ควรเก็บแบบเข้ารหัสในโปรดักชัน)
+                    Role = "User"        // กำหนดบทบาทผู้ใช้เป็น User
+                };
+
+                _context.User_tb.Add(newUser); // เพิ่มผู้ใช้ใหม่ในฐานข้อมูล
+                _context.SaveChanges(); // บันทึกการเปลี่ยนแปลงในฐานข้อมูล
+
+                // เปลี่ยนเส้นทางไปที่หน้า Login หลังจากสมัครสมาชิกสำเร็จ
+                return RedirectToAction("Login", "Account");
+            }
+            catch (Exception ex)
+            {
+                // ถ้ามีข้อผิดพลาดในการสมัครสมาชิก ให้แสดงข้อความผิดพลาด
+                ViewBag.ErrorMessage = ex.InnerException?.Message ?? ex.Message;
+                return View();
+            }
         }
     }
 }

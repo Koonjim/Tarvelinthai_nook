@@ -16,13 +16,36 @@ namespace Travelinthai.Controllers
         {
             _context = context;
         }
-
-        public IActionResult Index()
+        public IActionResult Measure()
         {
             IEnumerable<Location_tb> locations = _context.Location_tb
                 .Include(b => b.Type)
                 .ToList();
             return View(locations);
         }
+        
+        
+        public IActionResult Beach()
+        {
+            IEnumerable<Location_tb> locations = _context.Location_tb
+                .Include(b => b.Type)
+                .ToList();
+            return View(locations);
+        }
+        public IActionResult Mountain()
+        {
+            IEnumerable<Location_tb> locations = _context.Location_tb
+                .Include(b => b.Type)
+                .ToList();
+            return View(locations);
+        }
+        public IActionResult Waterfall()
+        {
+            IEnumerable<Location_tb> locations = _context.Location_tb
+                .Include(b => b.Type)
+                .ToList();
+            return View(locations);
+        }
+
     }
 }

@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="row justify-content-center" style="background-color:#e4ddc0;border-radius:20px;border:10px solid #e5c7ab ">
+    <h1 class="row justify-content-center">Register</h1>
+    <div class="col-md-4">
+        <form action="/Account/Register" method="post" class="border fs-6 ">
+
+            <div class="form-group">
+                <lebal for="username">Enter your username</lebal>
+                <input type="text" id="Username" name="Username" class="form-control" placeholder="Enter your Username" required />
+            </div>
+
+            <div class="form-group">
+                <lebal for="email">Enter your email</lebal>
+                <input type="email" id="Email" name="Email" class="form-control" placeholder="Enter your email" required />
+            </div>
+
+            <div class="form-group">
+                <lebal for="password">Enter your password</lebal>
+                <input type="password" id="Password" name="Password" class="form-control" placeholder="Enter your password" required />
+            </div>
+
+            <div class="form-group">
+                <lebal for="cpassword">Enter your confirm password</lebal>
+                <input type="password" id="cpassword" name="cpassword" class="form-control" placeholder="Enter your confirm password" required />
+                @Html.ValidationMessage("cpassword", "", new { @class = "text-danger" })
+            </div>
+
+            <br />
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">submit</button>
+            </div>
+
+
+
+        </form>
+        <div>
+            <style>
+                body {
+                    background: linear-gradient(#FFFFE0,#FAFAD2,#EEE8AA)
+                }
+
+            </style>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Travelinthai.Models.Location_tb>
+@* *@
+<a href="/Account/Login" class="btn btn-info">Logout</a>
+<div class="row">
+    @foreach (var location in Model.Where(a => a.TypeID == 3))
+    {
+        <div class="col-md-3 mb-4">
+            <div class="card h-100">
+                <img src="@location.Img" class="card-img-top" alt="@location.LocationName" style="height:200px;object-fit:cover" />
+                <div class="card-body">
+                    <h2 class="card-title">@location.LocationName</h2>
+                    <h3 class="card-text">@location.Details</h3>
+
+                </div>
+            </div>
+        </div>
+    }
+</div>
