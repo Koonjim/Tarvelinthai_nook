@@ -3,46 +3,74 @@
     ViewData["Title"] = "Login";
 }
 
-<div style="width: 100%; height: 50vh" class="row justify-content-center">
 
-    <div class="card w-50" style="height: 35vh; background-color: #FFF8DC;border-radius:20px;border:10px solid #e5c7ab">
-        <h1 class="row justify-content-center">Login</h1>
-        <div class="col-md-6">
-            <form action="/Account/Login" method="post">
-                <div class="form-group">
-                    <lebal for="UsernameOrEmail">username</lebal>
-                    <input type="text" id="UsernameOrEmail" name="UsernameOrEmail" class="form-control" placeholder="Enter your Username" required />
+
+        <form action="/Account/Login" method="post" style="width:100%; height:300px;" class="d-flex justify-content-center align-items-center">
+
+            <div class="card w-50" style=" height: 100%; background-color: transparent;border-radius:20px; border: 2px solid white; backdrop-filter: blur(20px); box-shadow: 0 0 30px black; ">
+
+                <h1 class="row justify-content-center">Login</h1>
+
+                <div class="card-body" style="padding-top:15px; padding-bottom:5px"> 
+
+                    <div class="form-group" >
+                        <lebal for="UsernameOrEmail">username</lebal>
+                        <input type="text" id="UsernameOrEmail" name="UsernameOrEmail" class="form-control" placeholder="Enter your Username" required />
+                    </div>
+
+                    <div class="form-group">
+                        <lebal for="password">password</lebal>
+                        <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password" required />
+                    </div>
+
+                    <div class="navigation">
+                        <input type="checkbox" id="Remember" name="Remember" class="form-check-input" />
+                        <label for="Remember" class="form-check-label">Remember</label>
+                    </div>
+
                 </div>
 
-                <div class="form-group">
-                    <lebal for="password">password</lebal>
-                    <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password" required />
+                <div class="group-btn-login" style="margin-left:33%">
+                    <button type="submit" class="btn btn-primary btn-login" style="width:25%">Login</button>
+                    <button href="/Account/Register" class="btn btn-info">Register</button>
                 </div>
 
-                <div class="form-group">
-                    <input type="checkbox" id="Remember" name="Remember" class="form-check-input" />
-                    <label for="Remember" class="form-check-label">Remember</label>
-                </div>
-
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary">Login</button>
-                </div>
-
-                <div class="form-group">
-                    <a href="/Account/Register" class="btn btn-info">Register</a>
-                </div>
                 <div>@ViewBag.ErrorMessage</div>
+                </div>
             </form>
-            <div>
+
                 <style>
                     body {
-                        background: linear-gradient(#FAEBD7,#FFEFD5,#FFDAB9)
+                    background: url("https://p16-va.lemon8cdn.com/tos-alisg-v-a3e477-sg/oUU6gVBAAImAiBPi9QfCtdfNLw38aG9gEiBO5E~tplv-tej9nj120t-origin.webp") no-repeat center center;
+                    background-size: cover;
+
+                    width:100%;
+                    height:100vh;
+                    display:flex;
+                    justify-content:center;
+                    align-items:center;
                     }
+
+                    .btn-login::after {
+                        overflow:hidden;
+                        content: '';
+                        position: relative;
+                        width: 25%;
+                        height: 10px;
+                        background: red;
+                        transition: all ease .2s;
+                        bottom:0px;
+                        left:0px;
+                        z-index: -1;
+                        transform: translateY(10px);
+                                     }
+
+                    .btn-login:hover::after{
+                        transform:translateY(3px);
+
+                            }
+
+
                 </style>
-            </div>
 
-        </div>
-
-    </div>
-</div>
 

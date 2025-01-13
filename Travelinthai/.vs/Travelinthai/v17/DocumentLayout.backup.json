@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\models\\user_tb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\models\\user_tb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\views\\type\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\views\\type\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\models\\type_tb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\models\\type_tb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\controllers\\typecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\controllers\\typecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\models\\location_tb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\models\\location_tb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\views\\location\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\views\\location\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|c:\\travelinthai\\tarvelinthai_nook\\travelinthai\\travelinthai\\travelinthai.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\travelinthai.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Travelinthai\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\wwwroot\\css\\site.css*",
+              "RelativeToolTip": "Travelinthai\\wwwroot\\css\\site.css*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-12T14:58:29.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Travelinthai\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Travelinthai\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwCoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-12T14:40:32.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User_tb.cs",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Models\\User_tb.cs",
+              "RelativeDocumentMoniker": "Travelinthai\\Models\\User_tb.cs",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Models\\User_tb.cs",
+              "RelativeToolTip": "Travelinthai\\Models\\User_tb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:35:30.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Program.cs",
+              "RelativeDocumentMoniker": "Travelinthai\\Program.cs",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Program.cs",
+              "RelativeToolTip": "Travelinthai\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:19:28.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\appsettings.json",
+              "RelativeDocumentMoniker": "Travelinthai\\appsettings.json",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\appsettings.json",
+              "RelativeToolTip": "Travelinthai\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-10T16:13:48.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Travelinthai\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Travelinthai\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:18:32.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Travelinthai\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Account\\Login.cshtml*",
+              "RelativeToolTip": "Travelinthai\\Views\\Account\\Login.cshtml*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:19:13.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TypeController.cs",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Controllers\\TypeController.cs",
+              "RelativeDocumentMoniker": "Travelinthai\\Controllers\\TypeController.cs",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Controllers\\TypeController.cs",
+              "RelativeToolTip": "Travelinthai\\Controllers\\TypeController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAjwBIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T12:32:16.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Type_tb.cs",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Models\\Type_tb.cs",
+              "RelativeDocumentMoniker": "Travelinthai\\Models\\Type_tb.cs",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Models\\Type_tb.cs",
+              "RelativeToolTip": "Travelinthai\\Models\\Type_tb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:32:53.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Type\\Index.cshtml",
+              "RelativeDocumentMoniker": "Travelinthai\\Views\\Type\\Index.cshtml",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Type\\Index.cshtml",
+              "RelativeToolTip": "Travelinthai\\Views\\Type\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T12:43:15.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Location_tb.cs",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Models\\Location_tb.cs",
+              "RelativeDocumentMoniker": "Travelinthai\\Models\\Location_tb.cs",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Models\\Location_tb.cs",
+              "RelativeToolTip": "Travelinthai\\Models\\Location_tb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:28:54.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LocationController.cs",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Controllers\\LocationController.cs",
+              "RelativeDocumentMoniker": "Travelinthai\\Controllers\\LocationController.cs",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Controllers\\LocationController.cs",
+              "RelativeToolTip": "Travelinthai\\Controllers\\LocationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T12:10:03.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Travelinthai\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Travelinthai\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T12:02:24.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Location\\Index.cshtml",
+              "RelativeDocumentMoniker": "Travelinthai\\Views\\Location\\Index.cshtml",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Location\\Index.cshtml",
+              "RelativeToolTip": "Travelinthai\\Views\\Location\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T12:24:32.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Travelinthai\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Travelinthai\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:22:43.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Travelinthai.csproj",
+              "DocumentMoniker": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Travelinthai.csproj",
+              "RelativeDocumentMoniker": "Travelinthai\\Travelinthai.csproj",
+              "ToolTip": "C:\\Travelinthai\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Travelinthai.csproj",
+              "RelativeToolTip": "Travelinthai\\Travelinthai.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-10T16:21:07.178Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
