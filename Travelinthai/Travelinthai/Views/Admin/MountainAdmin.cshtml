@@ -16,7 +16,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var location in Model.Where(a => a.TypeID == 1))
+        @foreach (var location in Model.Where(a => a.TypeID == 3))
         {
             <tr>
                 <td>@location.LocationName</td>

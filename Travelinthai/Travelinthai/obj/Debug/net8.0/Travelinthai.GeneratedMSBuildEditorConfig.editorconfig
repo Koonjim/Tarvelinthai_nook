@@ -34,8 +34,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Tarvelinthai_nook/Travelinthai/Travelinthai/Views/Admin/BeachAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmVhY2hBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Tarvelinthai_nook/Travelinthai/Travelinthai/Views/Admin/MesasureAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWVzYXN1cmVBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tarvelinthai_nook/Travelinthai/Travelinthai/Views/Admin/MountainAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTW91bnRhaW5BZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Tarvelinthai_nook/Travelinthai/Travelinthai/Views/Admin/WaterfallAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cV2F0ZXJmYWxsQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Tarvelinthai_nook/Travelinthai/Travelinthai/Views/Home/Index.cshtml]

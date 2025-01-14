@@ -18,6 +18,8 @@ namespace Travelinthai.Controllers
         [HttpGet]
         public IActionResult Login()
         {
+            // ซ่อนแถบ Navbar
+            ViewData["HideNavbar"] = true;
             return View();
         }
         [HttpPost]
@@ -27,13 +29,16 @@ namespace Travelinthai.Controllers
                 .FirstOrDefault(u => (u.Username == UsernameOrEmail || u.Useremail == UsernameOrEmail) && u.Password == password);
             if (User == null)
             {
+                // ซ่อนแถบ Navbar
+                ViewData["HideNavbar"] = true;
+                //ถ้ากรอกข้อมูลไม่ตรงกับฐานข้อมูลให้แสดง
                 ViewBag.ErrorMessage = "ชื่อผู้ใช้หรืออีเมล หรือรหัสผ่านไม่ถูกต้อง";
                 return View();
             }
 
             var claims = new[]
             {
-                new Claim(ClaimTypes.Name,User.Username),
+                new Claim(ClaimTypes.Name,User.Username), 
                 new Claim(ClaimTypes.Email,User.Useremail),
             };
 
@@ -45,10 +50,12 @@ namespace Travelinthai.Controllers
 
             if (User.Role == "Admin")
             {
+                //ถ้าผู้ใช้เป็น Admin ให้ไปหน้า TypeAdmin
                 return RedirectToAction("TypeAdmin", "Type");
             }
             else
             {
+                //ถ้าผู้ใช้เป็น User ให้ไปหน้า TypeUser
                 return RedirectToAction("TypeUser", "Type");
             }
 
@@ -56,6 +63,8 @@ namespace Travelinthai.Controllers
         [HttpGet]
         public IActionResult Register()
         {
+            // ซ่อนแถบ Navbar
+            ViewData["HideNavbar"] = true;
             return View();
 
         }
@@ -65,14 +74,20 @@ namespace Travelinthai.Controllers
             // ตรวจสอบว่า รหัสผ่านที่กรอกสองครั้งตรงกันหรือไม่
             if (Password != cpassword)
             {
-                ModelState.AddModelError("Cpassword", "Passwords do not match."); // ถ้าไม่ตรงให้แสดงข้อความผิดพลาด
+                // ซ่อนแถบ Navbar
+                ViewData["HideNavbar"] = true;
+                // ถ้าไม่ตรงให้แสดงข้อความผิดพลาด
+                ModelState.AddModelError("Cpassword", "Passwords do not match.");            
                 return View(); // ส่งกลับไปที่หน้าฟอร์มสมัครสมาชิก
             }
 
             // ตรวจสอบว่ามีผู้ใช้หรืออีเมลนี้ในระบบแล้วหรือไม่
             if (_context.User_tb.Any(u => u.Username == Username || u.Useremail == Email))
             {
-                ModelState.AddModelError("DuplicateUser", "Username or Email already exists."); // ถ้ามีให้แสดงข้อความผิดพลาด
+                // ซ่อนแถบ Navbar
+                ViewData["HideNavbar"] = true;
+                // ถ้ามีให้แสดงข้อความผิดพลาด
+                ModelState.AddModelError("DuplicateUser", "Username or Email already exists."); 
                 return View();
             }
 
@@ -95,6 +110,8 @@ namespace Travelinthai.Controllers
             }
             catch (Exception ex)
             {
+                // ซ่อนแถบ Navbar
+                ViewData["HideNavbar"] = true;
                 // ถ้ามีข้อผิดพลาดในการสมัครสมาชิก ให้แสดงข้อความผิดพลาด
                 ViewBag.ErrorMessage = ex.InnerException?.Message ?? ex.Message;
                 return View();

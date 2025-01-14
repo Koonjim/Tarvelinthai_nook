@@ -16,7 +16,8 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var location in Model.Where(a => a.TypeID == 1))
+
+        @foreach (var location in Model.Where(a => a.TypeID == 2))
         {
             <tr>
                 <td>@location.LocationName</td>
@@ -29,12 +30,14 @@
 
                     <form asp-action="Delete" asp-controller="Admin" asp-route-id="@location.LocationID" method="post" style="display:inline;">
                         <input type="hidden" name="id" value="@location.LocationID" />
+                        <input type="hidden" name="returnUrl" value="@Context.Request.Path" />
                         <button type="submit" class="btn btn-danger" onclick="return confirm('คุณต้องการลบข้อมูลนี้หรือไม่');">ลบ</button>
 
                     </form>
                 </td>
             </tr>
-        }
+        } 
+
     </tbody>
 </table>
 <a href="@Url.Action("Create","Admin")" class="btn btn-success">เพิ่มสถานที่</a>

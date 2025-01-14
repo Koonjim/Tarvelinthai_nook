@@ -18,32 +18,48 @@ namespace Travelinthai.Controllers
         {
             IEnumerable<Location_tb> locations = _context.Location_tb
                 .Include(b => b.Type)
-                
+                .Where(b => b.TypeID == 1)
                 .ToList();
-
             return View(locations);
         }
-        public IActionResult Admin()
+        public IActionResult BeachAdmin()
         {
             IEnumerable<Location_tb> locations = _context.Location_tb
                 .Include(b => b.Type)
-                
+                .Where(b => b.TypeID == 2)
+                .ToList();
+            return View(locations);
+        }public IActionResult MountainAdmin()
+        {
+            IEnumerable<Location_tb> locations = _context.Location_tb
+                .Include(b => b.Type)
+                .Where(b => b.TypeID == 3)
+                .ToList();
+
+            return View(locations);
+        }public IActionResult WaterfallAdmin()
+        {
+            IEnumerable<Location_tb> locations = _context.Location_tb
+                .Include(b => b.Type)
+                .Where(b => b.TypeID == 4)
                 .ToList();
 
             return View(locations);
         }
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Delete(int id)
         {
-            var locations = _context.Location_tb.Find(id);
-            if (locations == null)
+            var Location = _context.Location_tb.Find(id);
+            if (Location == null)
             {
                 return NotFound();
             }
-            _context.Location_tb.Remove(locations);
+
+            _context.Location_tb.Remove(Location);
             _context.SaveChanges();
-            return RedirectToAction("Admin", "Admin");
+            return RedirectToAction("TypeAdmin", "Type");
         }
     }
 }
