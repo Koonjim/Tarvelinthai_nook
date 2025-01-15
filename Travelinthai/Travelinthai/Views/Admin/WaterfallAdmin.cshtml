@@ -11,7 +11,7 @@
             <th>รายละเอียก</th>
             <th>จังหวัด</th>
             <th>หมวดหมู่</th>
-            <th>ปกหนังสือ</th>
+            <th>รูปภาพ</th>
             <th>จัดการ</th>
         </tr>
     </thead>
@@ -25,7 +25,7 @@
                 <td>@location.Type.TypeName</td>
                 <td><img src="@location.Img" alt="Cover Image" width="100" /></td>
                 <td>
-                    <a href="@Url.Action("Edit", "Admin",new{ id = location.LocationID})" class="btn btn-primary">แก้ไข</a>
+                    <a asp-action="Edit" asp-controller="Admin" asp-route-id="@location.LocationID" style="display:inline;">แก้ไข</a>
 
                     <form asp-action="Delete" asp-controller="Admin" asp-route-id="@location.LocationID" method="post" style="display:inline;">
                         <input type="hidden" name="id" value="@location.LocationID" />
