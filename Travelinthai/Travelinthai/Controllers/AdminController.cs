@@ -66,11 +66,7 @@ namespace Travelinthai.Controllers
         
         public IActionResult Edit(int id)
         {
-            //เช็ก LocationID ว่ามีค่าเป็น0หรือไม่มีค่าหรือป่าว
-            if (id == 0 || id == null)
-            {
-                return NotFound();
-            }
+            
             var Location = _context.Location_tb.Find(id);
             if (Location == null)
             {
@@ -91,5 +87,6 @@ namespace Travelinthai.Controllers
             _context.SaveChanges();
             return RedirectToAction("TypeAdmin", "Type");
         }
+        
     }
 }
