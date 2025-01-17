@@ -3,7 +3,11 @@
 @{
     ViewData["Title"] = "Admin";
 }
+<style>
 
+
+
+</style>
 <table class="table table-striped;">
     <thead>
         <tr>
@@ -37,7 +41,7 @@
         }
     </tbody>
 </table>
-<a href="@Url.Action("Create","Admin")" class="btn btn-success">เพิ่มสถานที่</a>
+<a asp-action="Create" asp-controller="Admin" class="btn btn-success">เพิ่มสถานที่</a>
 <style>
     body {
         background: linear-gradient(#DEB887,#F5DEB3,#F5F5DC)

@@ -38,7 +38,7 @@ namespace Travelinthai.Controllers
 
             var claims = new[]
             {
-                new Claim(ClaimTypes.Name,User.Username), 
+                new Claim(ClaimTypes.Name,User.Username),
                 new Claim(ClaimTypes.Email,User.Useremail),
             };
 
@@ -77,7 +77,7 @@ namespace Travelinthai.Controllers
                 // ซ่อนแถบ Navbar
                 ViewData["HideNavbar"] = true;
                 // ถ้าไม่ตรงให้แสดงข้อความผิดพลาด
-                ModelState.AddModelError("Cpassword", "Passwords do not match.");            
+                ModelState.AddModelError("Cpassword", "Passwords do not match.");
                 return View(); // ส่งกลับไปที่หน้าฟอร์มสมัครสมาชิก
             }
 
@@ -87,7 +87,7 @@ namespace Travelinthai.Controllers
                 // ซ่อนแถบ Navbar
                 ViewData["HideNavbar"] = true;
                 // ถ้ามีให้แสดงข้อความผิดพลาด
-                ModelState.AddModelError("DuplicateUser", "Username or Email already exists."); 
+                ModelState.AddModelError("DuplicateUser", "Username or Email already exists.");
                 return View();
             }
 
@@ -117,5 +117,6 @@ namespace Travelinthai.Controllers
                 return View();
             }
         }
+        
     }
 }

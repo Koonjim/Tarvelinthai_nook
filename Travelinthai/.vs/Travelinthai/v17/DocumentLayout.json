@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "E:\\Tarvelinthai_nook\\Travelinthai\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|e:\\tarvelinthai_nook\\travelinthai\\travelinthai\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|e:\\tarvelinthai_nook\\travelinthai\\travelinthai\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|e:\\tarvelinthai_nook\\travelinthai\\travelinthai\\views\\admin\\mesasureadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\views\\admin\\mesasureadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|e:\\tarvelinthai_nook\\travelinthai\\travelinthai\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|e:\\tarvelinthai_nook\\travelinthai\\travelinthai\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|e:\\tarvelinthai_nook\\travelinthai\\travelinthai\\models\\location_tb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\models\\location_tb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|e:\\tarvelinthai_nook\\travelinthai\\travelinthai\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|e:\\tarvelinthai_nook\\travelinthai\\travelinthai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|e:\\tarvelinthai_nook\\travelinthai\\travelinthai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B62F7A2F-3177-47AE-A8BF-029B46FD62DA}|Travelinthai\\Travelinthai.csproj|solutionrelative:travelinthai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,34 +41,108 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 250,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MesasureAdmin.cshtml",
-              "DocumentMoniker": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Admin\\MesasureAdmin.cshtml",
-              "RelativeDocumentMoniker": "Travelinthai\\Views\\Admin\\MesasureAdmin.cshtml",
-              "ToolTip": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Admin\\MesasureAdmin.cshtml",
-              "RelativeToolTip": "Travelinthai\\Views\\Admin\\MesasureAdmin.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAABQAAAA",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Travelinthai\\Views\\Admin\\Create.cshtml",
+              "ToolTip": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "Travelinthai\\Views\\Admin\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T14:32:17.74Z",
+              "WhenOpened": "2025-01-17T08:10:34.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AdminController.cs",
               "DocumentMoniker": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Travelinthai\\Controllers\\AdminController.cs",
               "ToolTip": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Travelinthai\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAgwFMAAAAmAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAqwJkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T17:05:57.316Z",
+              "WhenOpened": "2025-01-16T09:11:28.958Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Location_tb.cs",
+              "DocumentMoniker": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Models\\Location_tb.cs",
+              "RelativeDocumentMoniker": "Travelinthai\\Models\\Location_tb.cs",
+              "ToolTip": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Models\\Location_tb.cs",
+              "RelativeToolTip": "Travelinthai\\Models\\Location_tb.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T09:16:30.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MesasureAdmin.cshtml",
+              "DocumentMoniker": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Admin\\MesasureAdmin.cshtml",
+              "RelativeDocumentMoniker": "Travelinthai\\Views\\Admin\\MesasureAdmin.cshtml",
+              "ToolTip": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Admin\\MesasureAdmin.cshtml",
+              "RelativeToolTip": "Travelinthai\\Views\\Admin\\MesasureAdmin.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACsAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T11:24:11.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Travelinthai\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "Travelinthai\\Views\\Admin\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T09:38:18.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Program.cs",
+              "RelativeDocumentMoniker": "Travelinthai\\Program.cs",
+              "ToolTip": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Program.cs",
+              "RelativeToolTip": "Travelinthai\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T14:38:21.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\appsettings.json",
+              "RelativeDocumentMoniker": "Travelinthai\\appsettings.json",
+              "ToolTip": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\appsettings.json",
+              "RelativeToolTip": "Travelinthai\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-17T04:26:22.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Travelinthai\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\Tarvelinthai_nook\\Travelinthai\\Travelinthai\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Travelinthai\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:17:52.548Z"
             }
           ]
         }

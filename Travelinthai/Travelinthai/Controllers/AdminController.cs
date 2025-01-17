@@ -3,6 +3,9 @@ using Travelinthai.Data;
 using Travelinthai.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.CodeAnalysis;
+using Mono.TextTemplating;
+using System.Linq.Expressions;
 
 namespace Travelinthai.Controllers
 {
@@ -19,7 +22,7 @@ namespace Travelinthai.Controllers
         {
             IEnumerable<Location_tb> locations = _context.Location_tb
                 .Include(b => b.Type)
-                .Where(b => b.TypeID == 1)
+                
                 .ToList();
             return View(locations);
         }
@@ -27,7 +30,7 @@ namespace Travelinthai.Controllers
         {
             IEnumerable<Location_tb> locations = _context.Location_tb
                 .Include(b => b.Type)
-                .Where(b => b.TypeID == 2)
+                
                 .ToList();
             return View(locations);
         }
@@ -35,7 +38,7 @@ namespace Travelinthai.Controllers
         {
             IEnumerable<Location_tb> locations = _context.Location_tb
                 .Include(b => b.Type)
-                .Where(b => b.TypeID == 3)
+                
                 .ToList();
             return View(locations);
         }
@@ -43,7 +46,7 @@ namespace Travelinthai.Controllers
         {
             IEnumerable<Location_tb> locations = _context.Location_tb
                 .Include(b => b.Type)
-                .Where(b => b.TypeID == 4)
+                
                 .ToList();
             return View(locations);
         }
@@ -63,30 +66,88 @@ namespace Travelinthai.Controllers
             _context.SaveChanges();
             return RedirectToAction("TypeAdmin", "Type");
         }
-        
+             
         public IActionResult Edit(int id)
         {
-            
-            var Location = _context.Location_tb.Find(id);
-            if (Location == null)
+            // เช็กว่า ID มีค่าไหม
+            var location = _context.Location_tb.Find(id);
+            if (location == null)
             {
                 return NotFound();
             }
             
-            return View(Location);
+            return View(location);
+
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(Location_tb Location)
+        public IActionResult Edit(string locationname, string details, string img, string province, int locationID, int typeID)
         {
-            if (Location == null)
-            {  
-                return View(Location);
+            try
+            {
+                // แก้ไขข้อมูล
+                var editlocation = new Location_tb
+                {
+                    LocationName = locationname, // กำหนดชื่อสถานที่
+                    Details = details,       // กำหนดรายละเอียด
+                    Img = img, // กำหนดใส่เป็นลิ้งรูปภาพ
+                    Province = province,        // กำหนดจังหวัด
+                    LocationID = locationID, // กำหนด ID ของสถานที่
+                    TypeID = typeID, // กำหนด ID ของประเภทสถานที่
+                };
+
+                _context.Location_tb.Update(editlocation); // อัพเดทข้อมูลที่แก้ไขแล้วลงฐานข้อมูล
+                _context.SaveChanges(); // บันทึกการเปลี่ยนแปลงในฐานข้อมูล
+
+                // เปลี่ยนหน้าไปที่หน้าเลือกประเภทของสถานที่
+                return RedirectToAction("TypeAdmin", "Type");
             }
-            _context.Update(Location);
-            _context.SaveChanges();
-            return RedirectToAction("TypeAdmin", "Type");
+            catch (Exception ex)
+            {
+                return View();
+            }
         }
-        
+
+        public IActionResult Create(int id)
+        {
+            // เช็กว่า ID มีค่าไหม
+            var location = _context.Location_tb.Find(id);
+            if (location == null)
+            {
+                return NotFound();
+            }
+
+            return View(location);
+
+        }
+
+        [HttpPost]
+        public IActionResult Create(string locationname, string details, string img, string province, int locationID, int typeID)
+        {
+            try
+            {
+                // แก้ไขข้อมูล
+                var Createlocation = new Location_tb
+                {
+                    LocationName = locationname, // กำหนดชื่อสถานที่
+                    Details = details,       // กำหนดรายละเอียด
+                    Img = img, // กำหนดใส่เป็นลิ้งรูปภาพ
+                    Province = province,        // กำหนดจังหวัด
+                    LocationID = locationID, // กำหนด ID ของสถานที่
+                    TypeID = typeID, // กำหนด ID ของประเภทสถานที่
+                };
+
+                _context.Location_tb.Update(Createlocation); // อัพเดทข้อมูลที่แก้ไขแล้วลงฐานข้อมูล
+                _context.SaveChanges(); // บันทึกการเปลี่ยนแปลงในฐานข้อมูล
+
+                // เปลี่ยนหน้าไปที่หน้าเลือกประเภทของสถานที่
+                return RedirectToAction("TypeAdmin", "Type");
+            }
+            catch (Exception ex)
+            {
+                return View();
+            }
+        }
     }
 }
