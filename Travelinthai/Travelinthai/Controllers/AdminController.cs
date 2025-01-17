@@ -111,9 +111,9 @@ namespace Travelinthai.Controllers
 
         public IActionResult Create(int id)
         {
-            // เช็กว่า ID มีค่าไหม
+            // เช็กว่า ID ต้องไม่มีค่า
             var location = _context.Location_tb.Find(id);
-            if (location == null)
+            if (location != null)
             {
                 return NotFound();
             }
@@ -123,12 +123,13 @@ namespace Travelinthai.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Create(string locationname, string details, string img, string province, int locationID, int typeID)
         {
             try
             {
-                // แก้ไขข้อมูล
-                var Createlocation = new Location_tb
+                // สร้างข้อมูลใหม่
+                var Createlocation = new Location_tb                
                 {
                     LocationName = locationname, // กำหนดชื่อสถานที่
                     Details = details,       // กำหนดรายละเอียด
@@ -138,11 +139,10 @@ namespace Travelinthai.Controllers
                     TypeID = typeID, // กำหนด ID ของประเภทสถานที่
                 };
 
-                _context.Location_tb.Update(Createlocation); // อัพเดทข้อมูลที่แก้ไขแล้วลงฐานข้อมูล
+                _context.Location_tb.Add(Createlocation); // เพิ่มข้อมูลลงฐานข้อมูล
                 _context.SaveChanges(); // บันทึกการเปลี่ยนแปลงในฐานข้อมูล
-
-                // เปลี่ยนหน้าไปที่หน้าเลือกประเภทของสถานที่
-                return RedirectToAction("TypeAdmin", "Type");
+                
+                return RedirectToAction("TypeAdmin", "Type"); // เปลี่ยนหน้าไปที่หน้าเลือกประเภทของสถานที่
             }
             catch (Exception ex)
             {
