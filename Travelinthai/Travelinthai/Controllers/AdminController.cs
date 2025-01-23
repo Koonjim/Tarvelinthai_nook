@@ -146,6 +146,7 @@ namespace Travelinthai.Controllers
             }
             catch (Exception ex)
             {
+                
                 return View();
             }
         }
